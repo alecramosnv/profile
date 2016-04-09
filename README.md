@@ -1,31 +1,11 @@
-# Project Name
+# Personal Portfolio Website
 
-TODO: Write a project description
-
-## Installation
-
-TODO: Describe the installation process
-
-## Usage
-
-TODO: Write usage instructions
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
+This is the homepage for [alecramos.com](https://alecramos.com)
 
 ## Credits
 
-TODO: Write credits
+Alec Ramos - alecramosnv
 
 ## License
 
-TODO: Write license
+-------PRIVATE-------
