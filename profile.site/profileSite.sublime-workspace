@@ -1,0 +1,267 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "color",
+		"selected_items":
+		[
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alecramosnv/Projects/Projects/profile.site"
+	],
+	"file_history":
+	[
+		"/Users/alecramosnv/Projects/Projects/README.md",
+		"/Users/alecramosnv/Projects/RC Web Design/BitBucket Repo/profile/js/smoothscroll.js",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/profile/css/style.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/profile/include/logo.php",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/profile/index.php",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/profile/index.html",
+		"/Users/alecramosnv/Projects/RC Web Design/resources/reset.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/layout/layout.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/layout/style.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/layout/profile.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/blog.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/css/blog.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/index.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/tictactoe-table/tictactoe.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/tictactoe-div/tictactoe.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/tictactoe/app.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/tictactoe/index.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/app.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/handcrafted_css.pdf",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/css/tictactoe.css",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/tictactoe.html",
+		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d2/selectors.html",
+		"/learnCSS.html",
+		"/Users/alecramosnv/Projects/RC Web Design/learnHTML/forms.html",
+		"/Users/alecramosnv/Projects/RC Web Design/learnHTML/landt.html",
+		"/Users/alecramosnv/Projects/RC Web Design/learnHTML/index.html",
+		"/Users/alecramosnv/Projects/RC Web Design/learnHTML/index.php",
+		"/Users/alecramosnv/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/alecramosnv/Desktop/Server/z9-2.command",
+		"/Users/alecramosnv/Desktop/Server/y7-7.command",
+		"/Users/alecramosnv/Desktop/Server/ssh.command",
+		"/Users/alecramosnv/.ssh/known_hosts",
+		"/Users/alecramosnv/Desktop/Server/private",
+		"/Users/alecramosnv/Desktop/Server/HTML/index.php",
+		"/Volumes/HTML/index.php",
+		"/Users/alecramosnv/Library/Caches/Cleanup At Startup/Transmit/A8816A0C-224F-4ADF-B922-021E921E8C35/index.php",
+		"/Users/alecramosnv/Library/Caches/Cleanup At Startup/Transmit/4436686D-BFBE-4447-86BD-D7957AD7AD66/index.php",
+		"/Users/alecramosnv/Desktop/Server/HTML/app.css",
+		"/Users/alecramosnv/Desktop/Server/HTML/html-14-02-2016.tar.gz"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"Click me"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"X"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "profileSite.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
