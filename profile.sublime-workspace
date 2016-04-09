@@ -97,7 +97,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alecramosnv/Projects/Projects/profile.site"
+		"/Users/alecramosnv/Projects/profile"
 	],
 	"file_history":
 	[
@@ -218,7 +218,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "profileSite.sublime-project",
+	"project": "profile.sublime-project",
 	"replace":
 	{
 		"height": 46.0
