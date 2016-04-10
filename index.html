@@ -8,43 +8,46 @@
 	<link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-	<div id="wrapper">
+	<div id="wrapper" name="top">
 
 		<nav>
-			<img src="images/logo.svg" id="logo">
+			<a href="#top"><img src="images/logo.svg" id="logo"></a>
+
 			<ul>
-				<li id="navlink">
-					
-				</li>
-				<li id="navlink">
-					
-				</li>
-				<li id="navlink">
-					
-				</li>
-				<li id="menuIcon">
-					<img src="images/menuIcon.svg">
-				</li>
+				<li class="navbar"><a class="navlinks" href="#social">SOCIAL</a></li>
+				<li class="navbar"><a class="navlinks" href="#work">WORK</a></li>
+				<li class="navbar"><a class="navlinks" href="#about">ABOUT ME</a></li>
 			</ul>
+
 		</nav>
 
 		<header>
 			
 			<h1 id="title">ALEC R.</h1>
 
+			<p id="me">Junior Web Developer Graphic Designer  Animator</p>
+
+			<img id="tools" src="images/header2.svg">
+
 		</header>
 
-		<section id="social"></section>
+		<section id="social" name="social"></section>
 
-		<section id="work"></section>
+		<section id="work" name="work"></section>
 
-		<section id="about"></section>
+		<section id="about" name="about"></section>
 
-		<footer></footer>
+		<footer>
+			<p id="copyright">Alec Ramos &copy; 2016</p>
+		</footer>
 
 	</div>
 
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')</script>
+	<script>
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')
+	</script>
 
 </body>
 </html>
+
+<!-- <img src="images/menuIcon.svg" id="menuIcon"> -->
