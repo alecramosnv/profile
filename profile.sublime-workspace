@@ -55,6 +55,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -97,10 +113,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alecramosnv/Projects/profile"
+		"/Users/alecramosnv/Projects/profile",
+		"/Users/alecramosnv/Projects/profile/include"
 	],
 	"file_history":
 	[
+		"/Users/alecramosnv/Projects/profile/README.md",
+		"/Users/alecramosnv/Projects/RC Web Design/rcAcademy.sublime-project",
+		"/Users/alecramosnv/Projects/profile/include/logo.php",
 		"/Users/alecramosnv/Projects/Projects/README.md",
 		"/Users/alecramosnv/Projects/RC Web Design/BitBucket Repo/profile/js/smoothscroll.js",
 		"/Users/alecramosnv/Projects/RC Web Design/weeks/week1/w1d3/profile/css/style.css",
@@ -177,8 +197,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
