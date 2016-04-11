@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Alec R | Web Developer</title>
+	<title>Alec R | Profile</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="images/favicon.ico">
@@ -33,64 +33,86 @@
 
 		<div id="social" name="social">
 
-			<a href="#social"><h1 class="title">SOCIAL</h1></a>
+			<a href="#social" class="title"><h1>SOCIAL</h1></a>
 
 			<ul>
 				<li class="social"><a class="socialLink" target="_blank" href="http://thegrid.ai/photo-portfolio">
-				<img src="images/thegrid.svg" class="socialIcon"> The Grid</a></li>
-				<li class="social"><a class="socialLink" target="_blank" href="https://www.instagram.com/alec.ramos.nv/">
-				<img src="images/insta.svg" class="socialIcon"> Instagram</a></li>
-				<li class="social"><a class="socialLink" target="_blank" href="https://github.com/alecramosnv">
-				<img src="images/octocat.svg" class="socialIcon"> GitHub</a></li>
-			</ul>
+					<img src="images/thegrid.svg" class="socialIcon"> The Grid</a></li>
+					<li class="social"><a class="socialLink" target="_blank" href="https://www.instagram.com/alec.ramos.nv/">
+						<img src="images/insta.svg" class="socialIcon"> Instagram</a></li>
+						<li class="social"><a class="socialLink" target="_blank" href="https://github.com/alecramosnv">
+							<img src="images/octocat.svg" class="socialIcon"> GitHub</a></li>
+						</ul>
 
-		</div>
+					</div>
 
-		<div id="work" name="work">
-			
-			<a href="#work"><h1 id="workTitle">WORK</h1></a>
+					<div id="work" name="work">
 
-		</div>
+						<a href="#work" id="workTitle"><h1>WORK</h1></a>
 
-		<div id="about" name="about">
+						<p id="workText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in egestas erat. Pellentesque vitae sem lobortis, vestibulum justo non, elementum turpis. Nullam venenatis faucibus quam vitae dictum. Pellentesque dapibus mauris eget erat luctus accumsan.</p>
 
-			<img src="https://placehold.it/300x300" id="profilePic">
+						<table id="workTable">
+							<tr>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+							</tr>
+							<tr>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+								<td class="cell"><img src="https://placehold.it/450x250" class="myWork"></td>
+							</tr>
+							<tr>
+								<td><img src="https://placehold.it/450x250" class="myWork"></td>
+								<td><img src="https://placehold.it/450x250" class="myWork"></td>		
+								<td><img src="https://placehold.it/450x250" class="myWork"></td>
+							</tr>
+						</table>
 
-			<a href="#about"><h1 class="title">ABOUT ME</h1></a>
+					</div>
 
-		</div>
+					<div id="about" name="about">
 
-		<footer>
-			<p id="copyright">Alec Ramos &copy; 2016</p>
-		</footer>
+						<img src="images/avatar.svg" id="profilePic">
 
-	</div>
+						<a href="#about" class="title"><h1>ABOUT ME</h1></a>
+
+						<p id="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in egestas erat. Pellentesque vitae sem lobortis, vestibulum justo non, elementum turpis. Nullam venenatis faucibus quam vitae dictum. Pellentesque dapibus mauris eget erat luctus accumsan.</p>
+
+					</div>
+
+					<footer>
+						<p id="copyright">Alec Ramos &copy; 2016</p>
+					</footer>
+
+				</div>
 
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-	<script>
-		$(function() {
-			$('a[href*="#"]:not([href="#"])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		});
-	</script>
+				<script>
+					$(function() {
+						$('a[href*="#"]:not([href="#"])').click(function() {
+							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+								var target = $(this.hash);
+								target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+								if (target.length) {
+									$('html, body').animate({
+										scrollTop: target.offset().top
+									}, 1000);
+									return false;
+								}
+							}
+						});
+					});
+				</script>
 
-	<script>
-		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')
-	</script>
+				<script>
+					document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')
+				</script>
 
-</body>
-</html>
+			</body>
+			</html>
 
 <!-- <img src="images/menuIcon.svg" id="menuIcon"> -->
