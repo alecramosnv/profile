@@ -28,6 +28,15 @@ body {
 	margin-top: 40px;
 }
 
+.title {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Varela Round', sans-serif;
+	margin-top: 40px;
+}
+
 /*----------------NAVBAR----------------*/
 
 nav {

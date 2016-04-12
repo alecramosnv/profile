@@ -4,16 +4,56 @@
 		"selected_items":
 		[
 			[
-				"hea",
-				"header	Tag"
+				"mar",
+				"margin-right"
 			],
 			[
-				"mar",
-				"margin-top"
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-radius"
 			],
 			[
 				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"margi",
 				"margin"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"hea",
+				"header	Tag"
 			],
 			[
 				"wid",
@@ -22,10 +62,6 @@
 			[
 				"border-",
 				"border-bottom"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"wi",
@@ -56,10 +92,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 672,
+				"buffer_size": 4229,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +103,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 819,
+				"buffer_size": 3875,
 				"line_ending": "Windows"
 			}
 		}
@@ -113,11 +149,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alecramosnv/Projects/profile",
-		"/Users/alecramosnv/Projects/profile/include"
+		"/E/Projects/profile"
 	],
 	"file_history":
 	[
+		"/E/Projects/profile/index.html",
+		"/E/Projects/profile/js/jQuery.min.js",
+		"/E/Projects/profile/js/smoothScroll.js",
+		"/E/Projects/profile/js/restive.min.js",
+		"/E/Projects/profile/css/style.css",
+		"/Users/alecramosnv/Projects/profile/profile.sublime-workspace",
 		"/Users/alecramosnv/Projects/profile/README.md",
 		"/Users/alecramosnv/Projects/RC Web Design/rcAcademy.sublime-project",
 		"/Users/alecramosnv/Projects/profile/include/logo.php",
@@ -163,7 +204,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -177,6 +218,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navlinks",
 			";\n",
 			"Click me"
 		],
@@ -202,28 +244,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 672,
+						"buffer_size": 4229,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								1575,
+								1575
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -235,15 +277,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 819,
+						"buffer_size": 3875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								368,
-								367
+								686,
+								686
 							]
 						],
 						"settings":
@@ -252,7 +294,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -338,7 +380,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

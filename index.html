@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Alec R | Profile</title>
+	<title>Alec R | Profile</title><!-- 
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="images/favicon.ico">
@@ -89,30 +90,32 @@
 				</div>
 
 
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+				<script>if (typeof jQuery === 'undefined') {
+					document.write(unescape('%3Cscript%20src%3D%22/js/jquery-2.1.4.min.js%22%3E%3C/script%3E'));
+				}
+			</script>
 
-				<script>
-					$(function() {
-						$('a[href*="#"]:not([href="#"])').click(function() {
-							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-								var target = $(this.hash);
-								target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-								if (target.length) {
-									$('html, body').animate({
-										scrollTop: target.offset().top
-									}, 1000);
-									return false;
-								}
+			<script>
+				$(function() {
+					$('a[href*="#"]:not([href="#"])').click(function() {
+						if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+							var target = $(this.hash);
+							target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+							if (target.length) {
+								$('html, body').animate({
+									scrollTop: target.offset().top
+								}, 1000);
+								return false;
 							}
-						});
+						}
 					});
-				</script>
+				});
+			</script>
+<!-- 
+			<script src="bootstrap/js/bootstrap.min.js"></script> -->
 
-				<script>
-					document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')
-				</script>
-
-			</body>
-			</html>
+		</body>
+		</html>
 
 <!-- <img src="images/menuIcon.svg" id="menuIcon"> -->
