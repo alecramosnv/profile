@@ -4,20 +4,20 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
 				"mar",
 				"margin-right"
 			],
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
 				"border",
 				"border-radius"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"font",
@@ -91,22 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4229,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 3875,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -149,10 +133,16 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Projects/profile"
+		"/Users/alecramosnv/Projects/profile/css",
+		"/Users/alecramosnv/Projects/profileBeta"
 	],
 	"file_history":
 	[
+		"/Users/alecramosnv/Projects/profileBeta/css/style.css",
+		"/Users/alecramosnv/Projects/profileBeta/index.html",
+		"/Users/alecramosnv/Projects/profile/css/style.css",
+		"/Users/alecramosnv/Projects/profile/index.html",
+		"/Users/alecramosnv/Projects/profile/css/normalize.css",
 		"/E/Projects/profile/index.html",
 		"/E/Projects/profile/js/jQuery.min.js",
 		"/E/Projects/profile/js/smoothScroll.js",
@@ -239,67 +229,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1575,
-								1575
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1008.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -380,7 +311,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 206.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
